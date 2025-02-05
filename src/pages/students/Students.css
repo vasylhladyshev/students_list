@@ -186,7 +186,7 @@
 }
 
 .search:focus-within {
-  border: 2px solid rgb(0, 19, 190);
+  border: 1px solid rgb(0, 19, 190);
 }
 
 .checkbox {
