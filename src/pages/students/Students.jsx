@@ -173,14 +173,16 @@ export default function Students() {
             <span> New student</span>
           </button>
         </div>
-        <Modal
-          isOpen={isModalOpen}
-          onClose={() => setIsModalOpen(false)}
-          
-        >
-          <h2>{selectedUser ? 'Edit Student' : 'Add Student'}</h2>
-          <StudentForm onClose={() => setIsModalOpen(false)} selectedUser={selectedUser} />
+        <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
+          <h2>{selectedUser ? "Edit Student" : "Add Student"}</h2>
+          <StudentForm
+            onClose={() => setIsModalOpen(false)}
+            selectedUser={selectedUser}
+            setUsers={setUsers}
+            users={users}
+          />
         </Modal>
+
         <div className="list">
           {selectedUsers.length > 0 ? (
             <div className="selected-actions">
@@ -237,7 +239,12 @@ export default function Students() {
                     />
                   </td>
                   <td className="username">
-                    <img className="avatar" src={user.img} alt="avatar" />
+                    <img
+                      className="avatar"
+                      src={`${process.env.PUBLIC_URL}${user.img}`}
+                      alt="avatar"
+                    />
+
                     <span>{user.name}</span>
                   </td>
                   <td>{user.company}</td>
@@ -257,7 +264,7 @@ export default function Students() {
                   <td>
                     <button
                       className="actions"
-                      onClick={() => toggleActionsMenu(user.id)} 
+                      onClick={() => toggleActionsMenu(user.id)}
                     >
                       <img src={actions} alt="actions" />
                     </button>
@@ -268,9 +275,7 @@ export default function Students() {
                         ref={menuRef}
                         onClick={() => handleCloseMenu(user.id)}
                       >
-                        <button onClick={() => handleEdit(user)}>
-                          Edit
-                        </button>
+                        <button onClick={() => handleEdit(user)}>Edit</button>
                         <button onClick={() => handleDelete(user.id)}>
                           Delete
                         </button>
