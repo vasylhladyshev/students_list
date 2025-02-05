@@ -2,7 +2,7 @@
   "name": "students-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/vasylhladyshev/students_list",
+  "homepage": "https://vasylhladyshev.github.io/students_list/",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
