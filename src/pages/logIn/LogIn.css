@@ -1,0 +1,222 @@
+.wrapper {
+  background-color: rgb(236, 234, 236);
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 24px;
+  margin-bottom: 24px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.help-link {
+  font-size: 0.875rem;
+  line-height: 1.57143;
+  font-weight: 600;
+  text-decoration: none;
+  color: #1c252e;
+}
+
+.help-link:hover {
+  text-decoration: underline;
+}
+
+.div {
+  padding: 40px 24px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  max-width: 420px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.form-name {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.form-start {
+  margin: 0;
+  font-size: 1.1875rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.form-paragraph {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.57143;
+  color: #637381;
+}
+
+.registrate-link {
+  color: #1877f2;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.57143;
+  margin-left: 4px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.label {
+  position: absolute;
+  color: #637381;
+  font-weight: 400;
+  line-height: 1.4375em;
+  font-size: 0.75rem;
+  left: 10px;
+  top: -9px;
+  z-index: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  background-color: white;
+  padding-inline: 5px;
+}
+
+.input {
+  z-index: 0;
+  padding: 16.5px 14px;
+  font-weight: 400;
+  color: #1c252e;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid rgb(145, 158, 171);
+  outline: none;
+}
+
+.input:hover {
+  border: 1px solid black;
+}
+
+.input:focus {
+  border: 2px solid #1877f2;
+}
+
+.showButton {
+    position: absolute;
+    right: 5px;
+    top: 25%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.showButton:hover {
+    background-color: rgb(227, 227, 227);
+}
+
+.password-help {
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.57143;
+  color: #1c252e;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.password-help:hover {
+  text-decoration: underline;
+}
+
+.singButton {
+  text-align: center;
+  text-decoration: none;
+  box-sizing: border-box;
+  width: 100%;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  line-height: 1.71429;
+  color: white;
+  background-color: #1c252e;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 22px;
+  cursor: pointer;
+}
+
+.divider {
+  margin: 24px 0;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.divider-span {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: #637381;
+  font-weight: 500;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  top: 58%;
+  width: 45%;
+  border-top: 1px dashed #dbdbdb; 
+  position: absolute;
+}
+
+.divider::before {
+  left: 0; 
+}
+
+.divider::after {
+  right: 0;
+}
+
+.options {
+    justify-content: center;
+    display: flex;
+    gap: 8px;
+}
+
+.optionButton {
+    border-radius: 50%;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    padding: 8px;
+}
+
+.optionButton img {
+    width: 20px;
+    height: 20px;
+}
+
+.optionButton:hover {
+    background-color: rgb(227, 227, 227);
+}

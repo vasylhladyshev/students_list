@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Adam Trantow",
+    "company": "Mohr, Langworth and Hills",
+    "role": "UI Designer",
+    "verified": true,
+    "status": "Active",
+    "id": 1,
+    "img": "/avatar/avatar-1.webp"
+  },
+  {
+    "name": "Angel Rolfson-Kulas",
+    "company": "Koch and Sons",
+    "role": "UI Designer",
+    "verified": true,
+    "status": "Active",
+    "id": 2,
+    "img": "/avatar/avatar-2.webp"
+  },
+  {
+    "name": "Betty Hammes",
+    "company": "Waelchi - VonRueden",
+    "role": "UI Designer",
+    "verified": true,
+    "status": "Active",
+    "id": 3,
+    "img": "/avatar/avatar-3.webp"
+  },
+  {
+    "name": "Billy Braun",
+    "company": "White, Cassin and Goldner",
+    "role": "UI Designer",
+    "verified": false,
+    "status": "Banned",
+    "id": 4,
+    "img": "/avatar/avatar-4.webp"
+  },
+  {
+    "name": "Billy Stoltenberg",
+    "company": "Medhurst, Moore and Franey",
+    "role": "Leader",
+    "verified": false,
+    "status": "Banned",
+    "id": 5,
+    "img": "/avatar/avatar-5.webp"
+  },
+  {
+    "name": "Brandon Von",
+    "company": "Mitchell, Volkman and Prosacco",
+    "role": "UI Designer",
+    "verified": true,
+    "status": "Active",
+    "id": 6,
+    "img": "/avatar/avatar-6.webp"
+  },
+  {
+    "name": "Brian Jacobs",
+    "company": "Howe - Anderson",
+    "role": "Full Stack Developer",
+    "verified": true,
+    "status": "Active",
+    "id": 7,
+    "img": "/avatar/avatar-7.webp"
+  },
+  {
+    "name": "Charlene Krajcik",
+    "company": "Schmidt LLC",
+    "role": "UI Designer",
+    "verified": false,
+    "status": "Banned",
+    "id": 8,
+    "img": "/avatar/avatar-8.webp"
+  },
+  {
+    "name": "Cheryl Romaguera",
+    "company": "Weimann LLC",
+    "role": "UI Designer",
+    "verified": true,
+    "status": "Active",
+    "id": 9,
+    "img": "/avatar/avatar-9.webp"
+  },
+  {
+    "name": "Dr. Guadalupe Rath",
+    "company": "Spencer, Raynor and Langosh",
+    "role": "UI/UX Designer",
+    "verified": false,
+    "status": "Banned",
+    "id": 10,
+    "img": "/avatar/avatar-10.webp"
+  },
+  {
+    "name": "Dr. Lee Doyle-Grant",
+    "company": "Klein - Rolfson",
+    "role": "UI Designer",
+    "verified": true,
+    "status": "Active",
+    "id": 11,
+    "img": "/avatar/avatar-11.webp"
+  },
+  {
+    "name": "Eloise Ebert",
+    "company": "Hahn, Homenick and Lind",
+    "role": "Hr Manager",
+    "verified": true,
+    "status": "Active",
+    "id": 12,
+    "img": "/avatar/avatar-12.webp"
+  },
+  {
+    "name": "Kelvin Pouros",
+    "company": "Lehner - Feeney",
+    "role": "Project Manager",
+    "verified": true,
+    "status": "Active",
+    "id": 13,
+    "img": "/avatar/avatar-13.webp"
+  },
+  {
+    "name": "Kerry Kuhlman",
+    "company": "Smitham - Gerlach",
+    "role": "UI Designer",
+    "verified": true,
+    "status": "Active",
+    "id": 14,
+    "img": "/avatar/avatar-14.webp"
+  },
+  {
+    "name": "Kristen Wunsch",
+    "company": "Gutmann - Kassulke",
+    "role": "Full Stack Designer",
+    "verified": true,
+    "status": "Active",
+    "id": 15,
+    "img": "/avatar/avatar-15.webp"
+  },
+  {
+    "name": "Lillie Schultz",
+    "company": "Sipes - Yost",
+    "role": "UI Designer",
+    "verified": true,
+    "status": "Active",
+    "id": 16,
+    "img": "/avatar/avatar-16.webp"
+  },
+  {
+    "name": "Mr. Conrad Spinka",
+    "company": "Johns - Aufderhar",
+    "role": "UI Designer",
+    "verified": true,
+    "status": "Active",
+    "id": 17,
+    "img": "/avatar/avatar-17.webp"
+  },
+  {
+    "name": "Salvador Mayert",
+    "company": "Stamm, Larson and Mertz",
+    "role": "UX Designer",
+    "verified": true,
+    "status": "Active",
+    "id": 18,
+    "img": "/avatar/avatar-18.webp"
+  },
+  {
+    "name": "Sherri Davis",
+    "company": "Lemke - Ferry",
+    "role": "UI Designer",
+    "verified": false,
+    "status": "Banned",
+    "id": 19,
+    "img": "/avatar/avatar-19.webp"
+  },
+  {
+    "name": "Steve Welch",
+    "company": "Turcotte - Runolfsson",
+    "role": "Front End Developer",
+    "verified": false,
+    "status": "Banned",
+    "id": 20,
+    "img": "/avatar/avatar-20.webp"
+  },
+  {
+    "name": "Teresa Luettgen",
+    "company": "Larkin LLC",
+    "role": "UI Designer",
+    "verified": true,
+    "status": "Active",
+    "id": 21,
+    "img": "/avatar/avatar-21.webp"
+  },
+  {
+    "name": "Thelma Langworth",
+    "company": "Leuschke, Harris and Kuhlman",
+    "role": "Backend Developer",
+    "verified": true,
+    "status": "Active",
+    "id": 22,
+    "img": "/avatar/avatar-22.webp"
+  },
+  {
+    "name": "Tony Paucek PhD",
+    "company": "Padberg - Macejkovic",
+    "role": "UI Designer",
+    "verified": true,
+    "status": "Active",
+    "id": 23,
+    "img": "/avatar/avatar-23.webp"
+  },
+  {
+    "name": "Willis Ankunding",
+    "company": "Streich Group",
+    "role": "UI Designer",
+    "verified": true,
+    "status": "Active",
+    "id": 24,
+    "img": "/avatar/avatar-24.webp"
+  }
+]
