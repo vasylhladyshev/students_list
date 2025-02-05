@@ -1,7 +1,7 @@
 import './App.css';
 import LogIn from './pages/logIn/LogIn';
 import Students from './pages/students/Students';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   
